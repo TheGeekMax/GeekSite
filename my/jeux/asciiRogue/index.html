@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>old school rogue like</title>
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+  	<meta charset="utf-8" />
+
+  	<script src="CA.js"></script>
+
+  	<script src="pix.js"></script>
+  	<script src="player.js"></script>
+  	<script src="monster.js"></script>
+  	<script src="bomb.js"></script>
+
+	<script src="Sketch.js"></script>
+
+	
+
+
+	<!-- <p title="lolipop1&#013;test2">this is a test</p> -->
+</head>
+<body>
+  <div id="monsterL"></div>
+
+  <!-- Game Over -->
+  <div id="GO"> 
+    <h1>Game Over</h1>
+    <p>please reload the webpage to start again</p>
+  </div>
+
+  <div id="chgName">
+    <h4>new player name</h4>
+    <input type="text" value="" id="inName"/>
+    <button id="accepts">Validate</button>
+
+  </div>
+
+  <div id="infos">
+    <h4>somes infos :</h4>
+    <p>use arrow key to move <br> use spacebar and choose a key to place a bomb <br> kill all monster and go to <br> the exit tile to go to the next level <br>% : monster <br># : wall <br>µ : chest <br>@ : player <br>. : air <br>pi : exit <br>+ : bomb</p>
+    <button id="closes">X</button>
+
+  </div>
+
+</body>
+</html>

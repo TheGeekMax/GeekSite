@@ -1,0 +1,69 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:black;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2em;
+}
+
+#debugH{
+	opacity:0;
+}
+
+#debugS{
+	opacity:1;
+}
+
+#monsterL{
+	background-color: #002c4d;
+	float: right;
+	width:500px;
+	height:600px;
+	padding:5px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#monsterL p{
+	margin:0;
+	padding:0;
+}
+
+#GO{
+	position: absolute;
+	left: 100px; 
+	top: 100px;
+	background:black;
+	padding:10px;
+	border-radius:10px;
+}
+#chgName{
+	position: absolute;
+	left: 100px; 
+	top: 100px;
+	background:black;
+	padding:10px;
+	border-radius:10px;
+}
+
+#infos{
+	position: absolute;
+	left: 50px; 
+	top: 100px;
+	background:black;
+	padding:10px;
+	border-radius:10px;
+}
+
+#inName{
+	height:20px;
+}
+
+#closes{
+	border:none;
+	font-size:1em;
+	width:1.2em;
+	height:1.2em;
+	background:grey;
+}
